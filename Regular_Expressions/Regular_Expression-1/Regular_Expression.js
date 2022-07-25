@@ -22,12 +22,6 @@ str = 'hello World';
 
 console.log(re.exec(str))
 
-
-
-
-
-
-
 function reTest(re, str){
     if(re.test(str)){
         console.log(`'${str}' matches '${re.source}'`);
