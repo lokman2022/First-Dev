@@ -26,36 +26,37 @@
 
     <form action="http://google.com" method="get">
         <label for="email">Email</label><br>
-        <input type="email" id="email" name="" placeholder=" email" style="text-align: center;"><br>
+        <input type="email" id="email" name="" placeholder=" Email" required="required" maxlength="15"    autofocus><br>
+
         <label for="password">Password</label><br>
-        <input type="password" id="password" name="" placeholder="password" style="text-align: center;"><br>
+        <input type="password" id="password" name="" placeholder="Password" autofocus><br><br>
+        <!--------------------Textarea--------------------->
+
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+
         <label for="">Gender</label><br>
         Male
         <input type="radio" name="gender" id="">
         Female
         <input type="radio" name="gender" id="">
         <br>
+        <!--------------select-------------------->
+
+        <select name="select" id="">
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select><br><br>
+
+        <!-----------------Datalist-------------------->
+        <input type="text" list="Mylist">
+        <datalist id="Mylist">
+            <option value="Dhaka">Dhaka</option>
+            <option value="Cumilla">Cumilla</option>
+            <option value="Khulna">Khulna</option> 
+            <option value="Chandina">Chandina</option>
+        </datalist>
         <input type="submit" value="Submit">
     </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 </body>
 </html>
